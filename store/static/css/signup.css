@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(-70deg, white 55%, rgba(0, 0, 0, 0) 30%);
+}
+
+body #t1 {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 118px;
+    font-size: 62px;
+}
+
+body #t2 {
+    font-weight: bold;
+    margin-top: -29px;
+    margin-left: 120px;
+    font-size: 70px;
+}
+
+body #info {
+    margin-left: 50px;
+    margin-top: -64px;
+    width: 2000px;
+}
+
+body #image {
+    margin-top: -560px;
+    margin-left: 645px;
+}

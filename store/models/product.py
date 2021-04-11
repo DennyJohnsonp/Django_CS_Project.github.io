@@ -13,3 +13,9 @@ class Product(models.Model):
     
     def get_all_products():
         return Product.objects.all()
+    
+    def get_all_products_by_categoryid(category_id):
+        if category_id:
+            return Product.objects.filter(category=category_id)
+        else:
+            return Product.objects.all()
