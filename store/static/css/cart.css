@@ -110,6 +110,8 @@ body #topnav {
     display: block;
     transition: top 0.3s;
     z-index: 8;
+    background-image: url(Images/s1.JPG);
+    background-repeat: no-repeat;
 }
 
 body #topnav a:hover {

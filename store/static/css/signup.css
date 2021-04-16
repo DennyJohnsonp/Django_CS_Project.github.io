@@ -1,19 +1,27 @@
 body {
-    background: linear-gradient(-70deg, white 55%, rgba(0, 0, 0, 0) 30%);
+    background: linear-gradient(-70deg, white 49%, rgba(0, 0, 0, 0) 30%);
 }
 
 body #t1 {
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 1px;
     margin-left: 118px;
-    font-size: 62px;
+    font-size: 72px;
+    background-image: url(Images/t3.gif);
+    color: rgba(0, 0, 0, 0.534);
+    -webkit-background-clip: text;
+    word-spacing: 2px;
 }
 
 body #t2 {
     font-weight: bold;
-    margin-top: -29px;
+    margin-top: -39px;
     margin-left: 120px;
-    font-size: 70px;
+    font-size: 80px;
+    background-image: url(Images/t3.gif);
+    color: rgba(0, 0, 0, 0.534);
+    -webkit-background-clip: text;
+    word-spacing: 2px;
 }
 
 body #info {
@@ -23,6 +31,17 @@ body #info {
 }
 
 body #image {
-    margin-top: -560px;
-    margin-left: 645px;
+    margin-top: -570px;
+    margin-left: 731px;
+}
+
+body #topnav {
+    background-image: url(Images/s1.JPG);
+    background-repeat: no-repeat;
+}
+
+body #background {
+    margin-top: -10px;
+    border: 1px solid black;
+    padding: 20px;
 }
