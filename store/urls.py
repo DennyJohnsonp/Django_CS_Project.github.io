@@ -1,14 +1,14 @@
 
 from django.contrib import admin
 from django.urls import path
-from . import views
+from .views import home,login ,signup
 
 urlpatterns = [
-    path('', views.index,name='index'),
-    path('gallery',views.gallery,name='gallery'),
-    path('cart',views.cart,name='cart'),
-    path('cart/signup',views.signup,name='signup'),
-    path('cart/login',views.login,name='login'),
-    path('cart2',views.cart2,name='cart2'),
-    path('orders',views.orders,name='orders'),
+    path('', home.index,name='index'),
+    path('gallery',home.gallery,name='gallery'),
+    path('cart',home.cart,name='cart'),
+    path('cart/signup',signup.Signup.as_view(),name='signup'),
+    path('cart/login',login.Login.as_view(),name='login'),
+    path('cart2',home.cart2,name='cart2'),
+    path('orders',home.orders,name='orders'),
 ]
