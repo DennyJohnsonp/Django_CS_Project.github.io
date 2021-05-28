@@ -8,6 +8,8 @@ from django.views import View
 from store.middlewares.auth import auth_middleware
 
 
+
+
 class OrderView(View):
     
     def get(self, request):
@@ -15,4 +17,5 @@ class OrderView(View):
         orders= Order.get_orders_by_customer(customer)
         print(orders)
         return render(request, 'orders.html',{'orders':orders})
+
     
